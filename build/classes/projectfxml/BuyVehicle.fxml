@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-1.0" maxWidth="-1.0" minHeight="600.0" minWidth="800.0" prefHeight="-1.0" prefWidth="-1.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projectfxml.BuyVehicleController">
+   <children>
+      <Label layoutX="267.0" layoutY="42.0" text="Add Vehicle">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+      <Button fx:id="menu_back" layoutX="691.0" layoutY="29.0" onAction="#handleButtonAction" text="Main Menu" />
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="14.0" layoutY="14.0">
+         <image>
+            <Image url="http://is247.rioweblabs.com/uploads/logo.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="form_vin" layoutX="401.0" layoutY="145.0" prefHeight="26.0" prefWidth="227.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Label layoutX="267.0" layoutY="150.0" prefHeight="23.0" prefWidth="119.0" text="VIN" textAlignment="RIGHT">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="form_make" layoutX="401.0" layoutY="198.0" prefHeight="26.0" prefWidth="227.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Label layoutX="267.0" layoutY="203.0" prefHeight="23.0" prefWidth="119.0" text="BRAND" textAlignment="RIGHT">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="267.0" layoutY="254.0" prefHeight="23.0" prefWidth="119.0" text="MODEL" textAlignment="RIGHT">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="form_model" layoutX="401.0" layoutY="249.0" prefHeight="26.0" prefWidth="227.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="form_year" layoutX="401.0" layoutY="300.0" prefHeight="26.0" prefWidth="227.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Label layoutX="267.0" layoutY="305.0" prefHeight="23.0" prefWidth="119.0" text="YEAR" textAlignment="RIGHT">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="cmb_type" layoutX="400.0" layoutY="350.0" prefHeight="32.0" prefWidth="227.0">
+          <items>
+                <FXCollections fx:factory="observableArrayList">
+                    <String fx:value="Car" />
+                    <String fx:value="Truck" />
+                    <String fx:value="Bike" />
+                    <String fx:value="Boat" />
+                    <String fx:value="ATV" />
+                </FXCollections>
+            </items>
+        </ComboBox>
+      <TextField fx:id="form_price" layoutX="400.0" layoutY="400.0" prefHeight="26.0" prefWidth="227.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Label layoutX="267.0" layoutY="354.0" prefHeight="23.0" prefWidth="119.0" text="TYPE" textAlignment="RIGHT">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="form_submit" defaultButton="true" layoutX="401.0" layoutY="483.0" onAction="#handleButtonAction" prefHeight="61.0" prefWidth="227.0" text="Add Vehicle" textFill="#25bf13">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Button>
+      <Label layoutX="267.0" layoutY="405.0" prefHeight="23.0" prefWidth="119.0" text="PRICE" textAlignment="RIGHT">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

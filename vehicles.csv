@@ -1,0 +1,12 @@
+vin,make,model,year,type,status,price
+F2015-01,Ferrari,458 Italia,2015,Car,SOLD,38000.0,
+M2017-01,Mercedes,G63AMG 6X6,2017,Truck,SOLD,-50000.0,
+F2017-01,Ferrari,LaFerrari,2017,Car,SOLD,500000.0,
+R-2017-01,Maserati,Grand Turismo,2017,Car,SOLD,32000.0,
+D2015-01,Ducati,1198 Panegali R,2015,Bike,SOLD,4200.0,
+MV2016-01,MV Agusta,F4-RR,2016,Bike,SOLD,11500.0,
+A2017-01,Alpha Romeo,RG1,2017,Car,BUY,200000.0,
+P2015-01,Pagani,Zonda,2015,Car,SOLD,10.0,
+N2013-01,Nissan,Altima,2013,Car,BUY,10000.0,
+H2016-01,Honda,Civic LX,2016,Car,SOLD,8000.0,
+A2015-01,Ascari,A7,2015,Car,SOLD,500000.0,

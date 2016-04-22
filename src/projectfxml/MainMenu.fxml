@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-1.0" maxWidth="-1.0" minHeight="600.0" minWidth="800.0" prefHeight="-1.0" prefWidth="-1.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projectfxml.MainMenuController">
+    <children>
+      <Label layoutX="143.0" layoutY="34.0" text="ENZO Inventory System">
+         <font>
+            <Font size="50.0" />
+         </font>
+      </Label>
+      <Button fx:id="buy_vehicle" layoutX="293.0" layoutY="161.0" onAction="#handleButtonAction" prefHeight="61.0" prefWidth="217.0" text="Add Vehicle" textFill="#25bf13">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="sell_vehicle" layoutX="292.0" layoutY="246.0" onAction="#handleButtonAction" prefHeight="61.0" prefWidth="217.0" text="Remove Vehicle" textFill="#b81616">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="search_vehicle" layoutX="290.0" layoutY="333.0" onAction="#handleButtonAction" prefHeight="61.0" prefWidth="217.0" text="Search Vehicle" textFill="#6311d7">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="track_vehicle" layoutX="290.0" layoutY="417.0" onAction="#handleButtonAction" prefHeight="61.0" prefWidth="217.0" text="Track Inventory" textFill="#807c0c">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="14.0" layoutY="14.0">
+         <image>
+            <Image url="http://is247.rioweblabs.com/uploads/logo.png" />
+         </image>
+      </ImageView>
+    </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</AnchorPane>
